@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+        <nav class="menu-bar">
+        
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#">Papilles et Pupilles</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="carte.html">carte</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="photo.html">photo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="restaurants.html">restaurants</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                      </ul>
+                    </div>
+                  </nav>
+
+    
+</nav>
+
+    <section id="contact" class="mb-4">
+
+        
+        <h2 class="h2-responsive font-weight-bold text-center my-5">Contactez-nous</h2>
+        
+        <p class="text-center w-responsive mx-auto mb-5">Vous avez des questions ? Une réservation ? N'hésitez pas à nous contacter.</p>
+    
+        <div class="row justify-content-center">
+    
+         
+            <div class="col-md-6 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+    
+                    
+                    <div class="row justify-content-center">
+    
+                   
+                        <div class="col-md-4">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Votre nom</label>
+                            </div>
+                        </div>
+                        
+    
+                       
+                        <div class="col-md-4">
+                            <div class="md-form mb-0">
+                                <input type="text" id="lastname" name="lastname" class="form-control">
+                                <label for="lastname" class="">Votre prénom</label>
+                            </div>
+                        </div>
+                        
+    
+                    </div>
+
+                    <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Votre email</label>
+                                </div>
+                            </div>
+                        </div>
+                    
+    
+                    
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="md-form mb-0">
+                                
+                                <select type="text" id="subject" name="subject" class="form-control">
+                                
+                                <option selected>Choisissez...</option>
+                            <option>Réservation</option>
+                            <option>Annulation</option>
+                            <option>Autres</option>
+
+                                </select>
+                            <label for="subject" class="">Sujet</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+    
+                    
+                    <div class="row justify-content-center">
+    
+                        
+                        <div class="col-md-8">
+    
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Votre message</label>
+                            </div>
+    
+                        </div>
+                    </div>
+                    
+    
+                </form>
+    
+                <div class="text-center text-md-center butonsend">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Envoyer</a>
+                </div>
+                
+            
+    <!--
+        <div class="row justify-content-center">
+            <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>Rue Charles Dupret 15, 6000 Charleroi</p>
+                        </li>
+        
+                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                            <p>0488/99.85.95</p>
+                        </li>
+        
+                        <li><a href="https://www.facebook.com/PapillesetpupillesRestaurant?fref=ts" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+                           
+                        </li>
+                    </ul>
+                </div>
+        </div>
+                Grid column-->
+        
+            
+        
+      </section>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
