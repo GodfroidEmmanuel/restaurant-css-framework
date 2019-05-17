@@ -2,7 +2,7 @@
     margin: 0;
 }
 body {
-    background-color: black; 
+    background-color: gray; 
     color: white;
     margin: 0;
     
@@ -24,6 +24,13 @@ body {
 {
     color: goldenrod;
 }
+.navbar{
+    border-bottom: 2px solid goldenrod;
+    
+      
+
+}
+
 
 
 .titre {
@@ -77,6 +84,14 @@ body {
 .corp2 li {
     background-color:goldenrod;
 }
+/*jumbo*/
+.news {
+    margin-top: 10%;
+}
+.jumbotron{
+    background-color: goldenrod;
+    color: black;
+}
 
 
 /* Gallerie */
@@ -111,3 +126,10 @@ body {
     width: 30%;
     display: block;
 }
+
+#map-container-google-11{
+
+    width: 10%;
+
+}
+
