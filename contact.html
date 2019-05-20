@@ -4,130 +4,103 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Parisienne&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="custom.css">
-    <title>Hello, world!</title>
+    <title>Papilles et pupilles Restaurant</title>
   </head>
   <body>
-        <nav class="menu-bar">
-        
-                <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="#">Papilles et Pupilles</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-bars"></i>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="index.html">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="carte.html">carte</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="photo.html">photo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="restaurants.html">restaurants</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                      </ul>
-                    </div>
-                  </nav>
+        <!-- Navbar--> 
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html"><img src="Images/lillogook.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="carte.html">Carte</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="photo.html">Photos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="restaurants.html">Restaurants</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
 
-    
-</nav>
-
+    <!-- Contact-form--> 
     <section id="contact" class="mb-4">
-
-        
         <h2 class="h2-responsive font-weight-bold text-center my-5">Contactez-nous</h2>
-        
-        <p class="text-center w-responsive mx-auto mb-5">Vous avez des questions ? Une réservation ? N'hésitez pas à nous contacter.</p>
-    
-        <div class="row justify-content-center">
-    
-         
-            <div class="col-md-6 mb-md-0 mb-5">
+            <p class="text-center w-responsive mx-auto mb-5">Vous avez des questions ? Une réservation ? N'hésitez pas à nous contacter.</p>
+        <div class="container">
                 <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-    
-                    
                     <div class="row justify-content-center">
-    
-                   
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <div class="md-form mb-0">
                                 <input type="text" id="name" name="name" class="form-control">
                                 <label for="name" class="">Votre nom</label>
                             </div>
                         </div>
-                        
-    
-                       
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <div class="md-form mb-0">
                                 <input type="text" id="lastname" name="lastname" class="form-control">
                                 <label for="lastname" class="">Votre prénom</label>
                             </div>
                         </div>
-                        
-    
                     </div>
-
                     <div class="row justify-content-center">
-                            <div class="col-md-8">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="email" name="email" class="form-control">
-                                    <label for="email" class="">Votre email</label>
-                                </div>
-                            </div>
-                        </div>
-                    
-    
-                    
-                    <div class="row justify-content-center">
-                        <div class="col-md-8">
+                        <div class="col-md-6">
                             <div class="md-form mb-0">
-                                
-                                <select type="text" id="subject" name="subject" class="form-control">
-                                
-                                <option selected>Choisissez...</option>
-                            <option>Réservation</option>
-                            <option>Annulation</option>
-                            <option>Autres</option>
-
-                                </select>
-                            <label for="subject" class="">Sujet</label>
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Votre email</label>
                             </div>
                         </div>
                     </div>
-                    
-                    
-    
-                    
                     <div class="row justify-content-center">
-    
-                        
-                        <div class="col-md-8">
-    
-                            <div class="md-form">
-                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                <label for="message">Votre message</label>
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <select type="text" id="subject" name="subject" class="form-control">
+                                    <option selected>Choisissez...</option>
+                                    <option>Réservation</option>
+                                    <option>Annulation</option>
+                                    <option>Autres</option>
+                                </select>
+                                <label for="subject" class="">Sujet</label>
                             </div>
-    
                         </div>
                     </div>
-                    
-    
-                </form>
-    
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Votre message</label>
+                        </div>
+                    </div>
+                </div>
                 <div class="text-center text-md-center butonsend">
                     <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Envoyer</a>
                 </div>
+            </form>
+        </section>
+    </div>
+    <!-- Footer -->
+    <footer class="footer-resto">
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+        <a href="https://www.facebook.com/Manu6200" target="_blank"> Godfroid Emmanuel</a>
+        </div>
+    </footer>
                 
             
     <!--
@@ -148,12 +121,7 @@
                     </ul>
                 </div>
         </div>
-                Grid column-->
-        
-            
-        
-      </section>
-    
+               -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
